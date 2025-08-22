@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Redirect to login if not logged in
     if (!localStorage.getItem("user")) {
-   //   alert("Please login first");
-      //window.location.href = "index.html";
+     alert("Please login first");
+      window.location.href = "index.html";
     }
   
     const breedsGrid = document.getElementById("breedsGrid");
