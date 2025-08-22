@@ -9,7 +9,7 @@ loginForm.addEventListener("submit", async (e) => {
 
   try {
     const response = await fetch(
-      `http://127.0.0.1:8000/users/login?email=${encodeURIComponent(email)}`
+      `https://gallery-backend-app.onrender.com/users/login?email=${encodeURIComponent(email)}`
     ); 
     const data = await response.json();
 
